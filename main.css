@@ -1,1 +1,35 @@
-*{box-sizing:border-box;user-select:none}body{background:#131313;color:#000;margin:calc(1px + 1vw)}.card{display:flex;flex-direction:column;justify-content:center;align-items:center;background:#353535;font-size:3rem;color:#000;box-shadow:rgba(3,8,20,.1) 0 .15rem .5rem,rgba(2,8,20,.1) 0 .075rem .175rem;height:100%;width:100%;border-radius:4px;transition:all .5s;overflow:hidden;background-size:cover;background-position:center;background-repeat:no-repeat}.card:hover{cursor:pointer;box-shadow:rgba(2,8,20,.1) 0 .35em 1.175em,rgba(2,8,20,.08) 0 .175em .5em;transform:translateY(-3px) scale(1.1)}
+* {
+    box-sizing: border-box;
+    user-select: none
+}
+
+body {
+    background: #131313;
+    color: #000;
+    margin: calc(1px + 1vw)
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 3rem;
+    color: #000;
+    box-shadow: rgba(3, 8, 20, .1) 0 .15rem .5rem, rgba(2, 8, 20, .1) 0 .075rem .175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all .5s;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: rgba(2, 8, 20, .1) 0 .35em 1.175em, rgba(2, 8, 20, .08) 0 .175em .5em;
+    transform: translateY(-3px) scale(1.1)
+}
