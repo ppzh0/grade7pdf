@@ -1,3 +1,4 @@
+// These won't be work on your computer try reaching out to https://grade7pdf.netlify.app
 function math1 () {
   window.open('data/Math/Grade-7-Math-Algebra.pdf')
 }
