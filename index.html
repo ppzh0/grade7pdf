@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <!-- oncontextmenu="return false" -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
-    <title>Grade 8 Textbook PDF</title>
+    <title>Grade 7 Textbook PDF</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
-        @import url(style.css);
-
         noscript>h1 {
             text-align: center;
         }
     </style>
 </head>
 
-<body oncontextmenu="return false"><noscript>
+<body>
+    <noscript>
         <h1>Please Enable JavaScript For This Website To Function!</h1>
     </noscript>
-    <main class="main-grid">
-        <div onclick="english()" class="card card-wide"
-            style="background-image: url(img/1english.webp);color: #4dc0e4;">English</div>
-        <div onclick="discord()" title="Join discord server to communicate with developer" class="card"
-            style="background-image: url(img/discord.png);"></div>
-        <div onclick="science()" class="card card-tall" style="background-image: url(img/science.jpg);"></div>
-        <div onclick="math1()" class="card card-wide" style="background-image: url(img/1algr.jpg);">Algebra Math-1</div>
-        <div onclick="geo()" class="card card-tall card-wide" style="background-image: url(img/1geo.jpeg);">Geography
-        </div>
-        <div onclick="window.open('info.html')" title="More iInformation about this website" class="card card-tall"
-            style="background-image: url(img/info.jpg);">About</div>
-        <div onclick="mm2()" class="card mmm card-wide">ဇာတကဝတ္ထုများ</div>
-        <div onclick="math2()" class="card card-wide" style="background-image: url(img/1geometry.jpg);">Geometry Math-2
-        </div>
-        <div onclick="mm1()" class="card mmm">မြန်မာသဒ္ဒါ</div>
-        <div onclick="mm3()" class="card mmm card-wide">မြန်မာကဗျာ</div>
-        <div onclick="window.open('log.html')" title="LOGs" class="card" style="background-image: url(img/logs.png);">
-            Logs</div>
+    <main>
+        <ul>
+            <li onclick="english()">
+                English | အင်္ဂလိပ် 
+                <img src="img/icon.svg" alt="bruh">
+            </li>
+            <li onclick="mm3()">
+                မြန်မာကဗျာ | Burmese Poem
+                <img src="img/icon.svg" alt="bruh">
+            </li>
+            <li onclick="mm1()">
+                မြန်မာသဒ္ဒါ | Burmese Grammer
+                <img src="img/icon.svg" alt="bruh">
+            </li>
+            <li onclick="mm2()">
+                ဇာတကဝတ္ထုများ | Novals
+                <img src="img/icon.svg" alt="bruh">
+            </li>
+            <li onclick="math1()">
+                Algebra | သင်္ချာအတွဲ (၁)
+                <img src="img/icon.svg" alt="bruh">
+            </li>
+            <li onclick="math2()">
+                Geometry | သင်္ချာအတွဲ (၂)
+                <img src="img/icon.svg" alt="bruh">
+            </li>
+            <li onclick="geo()">
+                Geography | ပထဝီဝင်
+                <img src="img/icon.svg" alt="bruh">
+            </li>
+            <li onclick="science()">
+                Science | သိပ္ပံ
+                <img src="img/icon.svg" alt="bruh">
+            </li>
+            <li id="info-bar">
+                <a href="info.html">About This</a> |
+                <a href="blog/index.html">Blog</a> |
+                <a href="log.html">Developer Log</a>
+            </li>
+        </ul>
     </main>
     <script src="brain.js"></script>
 </body>
