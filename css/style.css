@@ -1,0 +1,90 @@
+@font-face {
+    font-family: NotoSansMyanmar;
+    src: url(NotoSansMyanmar-Regular.woff2);
+}
+
+* {
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    user-select: none;
+}
+
+body {
+    font-family: NotoSansMyanmar, Arial, Helvetica, sans-serif;
+    width: min(800px, calc(70% + 100px));
+    margin: 0 auto;
+    background: #131313;
+    color: #fff;
+}
+
+body main .main-article {
+    color: rgb(202, 202, 202);
+}
+
+.main-article {
+    margin: 0 auto;
+    line-height: 24px;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li:not(ul.inFo) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    font-size: larger;
+    padding: 1rem;
+    margin: 30px 20px;
+    cursor: pointer;
+}
+
+
+main > ul li:hover {
+    background-color: #00ffffcc;
+    color: #131313;
+    border-radius: 8px;
+}
+
+li:not(ul.inFo) a {
+    color: #fff;
+}
+
+#info-bar {
+    justify-content: space-evenly;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: cyan;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
