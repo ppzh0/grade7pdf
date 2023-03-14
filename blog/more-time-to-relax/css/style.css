@@ -1,11 +1,11 @@
 @font-face {
     font-family: Edu;
-    src: url(font/Edu-VIC-WA-NT.woff2) format('woff2')
+    src: url(../font/Edu-VIC-WA-NT.woff2) format('woff2')
 }
 
 @font-face {
     font-family: ComicNeue;
-    src: url(font/ComicNeue.woff2) format('woff2')
+    src: url(../font/ComicNeue.woff2) format('woff2')
 }
 
 * {
