@@ -1,12 +1,10 @@
 # test-git-bruh
-This is used to share or download textbook pdf files
+This repositiory was contributed to P.F.I.M.
+You can improve this repositiory or UI by making a pull request.
+This is also a backup of the project. Started working on this since 2022.
 
-this is just a back up for me
-
-Try live [here](https://grade7pdf.netlify.app)
-
-#### Consider contributing this project! it helps me more than a lot
+Try live, [Netlify](https://grade7pdf.netlify.app) | [GitHub](https://ppzh0.github.io/test-git-bruh)
 
 ### I hate tutorials
 
-there is lots of steps in it.
+**There are lots of steps in it.**
