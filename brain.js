@@ -9,7 +9,7 @@ function science () {
   window.open('data/Grade-7-Science.pdf')
 }
 function mm1 () {
-  window.open('data/Grade-7-Myanmar-Grammer.pdf')
+  window.open('data/Grade-7-Myanmar-Grammar.pdf')
 }
 function mm2 () {
   window.open('data/Grade-7-Myanmar-Novels.pdf')
